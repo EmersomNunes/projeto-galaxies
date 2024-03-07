@@ -9,10 +9,15 @@ body {
 
     background-color: #121214;
     color: #fff;
+
+    padding: 73px 114px 122px 100px;
 }
 
 main {
-    padding: 73px 114px 122px 100px;
+    background-color: #16161abe;
+    border-radius: 8px;
+
+    padding: 73px 114px 100px;
 }
 
 h1 {
