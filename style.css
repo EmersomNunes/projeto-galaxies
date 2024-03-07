@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+
+    background-color: #121214;
+    color: #fff;
+}
+
+main {
+    padding: 73px 114px 122px 100px;
+}
+
+h1 {
+    color: #02799D;
+
+    font-size: 3.625rem;
+
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    color: #E1E1E6;
+
+    font-size: 2rem;
+
+    padding: 0rem 0rem;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.75rem;
+
+    margin-top: 3.875rem;
+}
+
+section div {
+    width: 22.875rem;
+    height: 28rem;
+
+    border: 1px solid #fff;
+    border-radius: 0.5rem;
+
+    box-sizing: content-box;
+}
+
+section img {
+    border-radius: 0.5rem;
+}
+
+section h2 {
+    font-size: 2.2rem;
+
+    margin: 1.5rem 0rem 1.5rem;
+}
+
+section p, section h2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+section p {
+    font-size: 1.1875rem;
+    
+    color: #C4C4CC;
+    
+}
