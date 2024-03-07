@@ -41,10 +41,11 @@ section {
 
 section div {
     width: 22.875rem;
-    height: 28rem;
 
     border: 1px solid #323238;
     border-radius: 0.5rem;
+
+    padding-bottom: 2rem;
 
     box-sizing: content-box;
 }
@@ -66,7 +67,13 @@ section p, section h2 {
 
 section p {
     font-size: 1.1875rem;
+    height: 9.875rem;
+
+    margin-bottom: 2rem;
     
     color: #C4C4CC;
-    
+}
+
+.galaxy-5 h2, .galaxy-4 h2{
+    margin: 0.8rem 0rem 1.5rem;
 }
